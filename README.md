@@ -3,7 +3,7 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Coming soon
+# Travel design figma
 
 _website design project_
 
@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://mistakeltu.github.io/
 
-Design: 
+Design: https://www.figma.com/file/7OG7FAk6I2SHC3kJqH3iHy/Landing-Page-UI-Design-in-Figma-(Community)?type=design&node-id=832-25&t=IngbdJuybNUa50Wf-0
 
 ## 🎯 Project features/goals
 
