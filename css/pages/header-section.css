@@ -1,0 +1,29 @@
+.main-header-section {
+    width: 1199px;
+    height: 713px;
+    background-color: pink;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+    height: 548px;
+    margin: 82.5px 0;
+    background-color: bisque;
+}
+
+.explore-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 224px;
+    height: 56px;
+    color: #F85E9F;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 16px 32px;
+    font-size: 14px;
+}
