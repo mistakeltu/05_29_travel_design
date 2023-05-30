@@ -2,7 +2,14 @@
 
 @import '../../css/Inter.css';
 
+/* PAGES */
+
+@import '../../css/pages/header-nav.css';
+
+/* BASE */
+
+@import '../../css/base/base.css';
+
 :root {
     font-family: Inter;
 }
-

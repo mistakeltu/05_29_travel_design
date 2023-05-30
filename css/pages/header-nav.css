@@ -1,0 +1,64 @@
+.header-section {
+    height: 113px;
+    width: 1440px;
+    margin-left: calc(50% - 720px); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 165px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 142px;
+}
+
+.logo-img {
+    height: 40px;
+    width: 40px;
+}
+
+.travlog {
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    height: 17px;
+}
+
+.nav-bar {
+    font-size: 14px;
+    text-decoration: none;
+    color: #222831;
+}
+
+.nav-bar:hover,
+.login:hover,
+.signup:hover {
+    color: rgba(25, 24, 37, 0.5);
+}
+
+.login {
+    width: 105px;
+    height: 49px;
+    padding: 16px 32px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222831;
+}
+
+.signup {
+    width: 115px;
+    height: 49px;
+    padding: 16px 32px;
+    background-color: #5D50C6;
+    color: #EEEEEE;
+    border-radius: 100px;
+    text-decoration: none;
+}
