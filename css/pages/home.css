@@ -5,10 +5,16 @@
 /* PAGES */
 
 @import '../../css/pages/header-nav.css';
+@import '../../css/pages/header-section.css';
 
 /* BASE */
 
 @import '../../css/base/base.css';
+@import '../../css/base/layout.css';
+
+/* VENDORS */
+
+@import '../../css/vendor/font-awesome.min.css';
 
 :root {
     font-family: Inter;
