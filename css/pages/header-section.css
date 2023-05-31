@@ -132,3 +132,9 @@
     top: 650px;
     left: 400px;
 }
+
+.header-bottom {
+    margin-top: 50px;
+    width: 1440px;
+    height: 160px;
+}
