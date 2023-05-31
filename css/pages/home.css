@@ -16,6 +16,10 @@
 
 @import '../../css/vendor/font-awesome.min.css';
 
+/* COMPONENTS */
+
+@import '../../css/components/buttons.css';
+
 :root {
     font-family: Inter;
 }
