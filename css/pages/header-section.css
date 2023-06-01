@@ -134,7 +134,17 @@
 }
 
 .header-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     margin-top: 50px;
     width: 1440px;
     height: 160px;
+    padding: 64px 165px;
+}
+
+.triangles {
+    position: absolute;
+    top: -50px;
+    left: 20px;
 }
