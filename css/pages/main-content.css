@@ -1,0 +1,71 @@
+.main-services {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 407px;
+}
+
+.services-left {
+    width: 444px;
+    height: 150px;
+    margin-left: 165px;
+}
+
+.main-top-destinations {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 407px;
+}
+
+.services-right {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+}
+
+.service-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 64px;
+    width: 350px;
+    height: 409px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 30px 50px 0px rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+}
+
+.service-one:hover,
+.service-two:hover {
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+
+.travel-booking-img {
+    width: 64px;
+    height: 64px;
+}
+
+.service-two {
+    margin-left: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 64px;
+    width: 350px;
+    height: 409px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 30px 50px 0px rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+}
