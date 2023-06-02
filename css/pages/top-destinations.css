@@ -1,0 +1,170 @@
+.main-top-destinations{
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+}
+.destinations-header{
+    width: 1440px;
+    height: 228px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 64px 165px;
+}
+
+.destinations-header-right {
+    display: flex;
+    justify-content: space-between;
+    width: 232px;
+    height: 100px;
+}
+
+.left-button {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: #ffff;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.left-button-href {
+    position: absolute;
+    top: 38px;
+    left: 43px;
+    text-decoration: none;
+    color: black;
+}
+
+.right-button {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: #ffff;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.right-button:hover,
+.left-button:hover {
+    background-color: #5D50C6;
+}
+
+.left-button-href:hover,
+.right-button-href:hover
+{
+    color: #ffff;
+}
+
+.right-button-href {
+    position: absolute;
+    top: 38px;
+    left: 43px;
+    text-decoration: none;
+    color: black;
+}
+
+.destinations-main{
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 165px;
+}
+
+.travel-card-1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 575px;
+    border-radius: 0 0 32px 32px;
+}
+
+.travel-card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 575px;
+    border-radius: 0 0 32px 32px;
+}
+
+.travel-card-3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 575px;
+    border-radius: 0 0 32px 32px;
+}
+
+.travel1-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 225px;
+    border-radius: 0 0 32px 32px;
+    background-color: #ffff;
+}
+
+.travel2-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 225px;
+    border-radius: 0 0 32px 32px;
+    background-color: #ffff;
+}
+
+.travel3-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 225px;
+    border-radius: 0 0 32px 32px;
+    background-color: #ffff;
+}
+
+.destination-1,
+.destination-2,
+.destination-3 {
+    width: 350px;
+    height: 350px;
+}
+
+.travel-card-1:hover,
+.travel-card-3:hover,
+.travel-card-2:hover{
+    box-shadow: 0 30px 50px 0px rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+}
+
+.price {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 23px;
+    color: #F85E9F;
+}
+
+.travel-card-1 h3,
+.travel-card-2 h3,
+.travel-card-3 h3 {
+    margin: 32px;
+}
+
+.travel-card-1 p,
+.travel-card-2 p,
+.travel-card-3 p {
+    margin: 0 32px 32px 32px;
+}
+
+.star {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    color: goldenrod; 
+    font-size: 23px;
+}

@@ -41,8 +41,6 @@
 
 .right-side {
     position: relative;
-    top: 0;
-    left: 0;
     width: 713px;
     height: 713px;
 }
@@ -52,61 +50,58 @@
     filter: invert(0%) sepia(0%) saturate(7014%) hue-rotate(346deg) brightness(100%) contrast(101%);
 }
 
-.line-2{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .img-1 {            
-    position: relative;
-    top: -200px;
+    position: absolute;
+    top: 60px;
     left: 50px;
 }
 
 .img-2 {
-    display: flex;
-    position: relative;
-    top: -200px;
+    position: absolute;
+    top: 420px;
     left: 50px;
-    padding-top: 32px;
 }
 
 .img-3 {
-    display: flex;
-    position: relative;
-    top: -730px;
-    left: 370px;
+    position: absolute;
+    top: 200px;
+    left: 360px;
 }
 
 .line-1 {
-    position: relative;
-    top: -1300px;
-    left: 620px;
+    position: absolute;
+    top: 60px;
+    left: 615px;
 }
 
 .jet-1{
-    position: relative;
-    top: -1510px;
-    left: 445px;
+    position: absolute;
+    top: 35px;
+    left: 570px;
 }
 
 .jet-3{
     position: absolute;
-    top: -30px;
-    left: 100px;
+    top: 20px;
+    left: 60px;
 }
 
 .line-3 {
     position: absolute;
-    top: -20px;
-    left: 170px;
+    top: -10px;
+    left: 180px;
+}
+
+.line-2{
+    position: absolute;
+    top: 50px;
+    left: -40px;
 }
 
 .jet-2 {
     position: absolute;
-    top: 150px;
-    left: 445px;
+    top: 160px;
+    left: 455px;
 }
 
 .tele-img {
