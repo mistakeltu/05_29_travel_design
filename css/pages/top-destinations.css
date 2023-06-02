@@ -49,6 +49,7 @@
 .right-button:hover,
 .left-button:hover {
     background-color: #5D50C6;
+    cursor: pointer;
 }
 
 .left-button-href:hover,
