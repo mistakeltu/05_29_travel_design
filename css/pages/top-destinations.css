@@ -1,4 +1,5 @@
 .main-top-destinations{
+    margin-top: 230px;
     display: flex;
     justify-content: center;
 }
@@ -62,4 +63,108 @@
     left: 43px;
     text-decoration: none;
     color: black;
+}
+
+.destinations-main{
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 165px;
+}
+
+.travel-card-1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 575px;
+    border-radius: 0 0 32px 32px;
+}
+
+.travel-card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 575px;
+    border-radius: 0 0 32px 32px;
+}
+
+.travel-card-3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 575px;
+    border-radius: 0 0 32px 32px;
+}
+
+.travel1-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 225px;
+    border-radius: 0 0 32px 32px;
+    background-color: #ffff;
+}
+
+.travel2-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 225px;
+    border-radius: 0 0 32px 32px;
+    background-color: #ffff;
+}
+
+.travel3-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 225px;
+    border-radius: 0 0 32px 32px;
+    background-color: #ffff;
+}
+
+.destination-1,
+.destination-2,
+.destination-3 {
+    width: 350px;
+    height: 350px;
+}
+
+.travel-card-1:hover,
+.travel-card-3:hover,
+.travel-card-2:hover{
+    box-shadow: 0 30px 50px 0px rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+}
+
+.price {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 23px;
+    color: #F85E9F;
+}
+
+.travel-card-1 h3,
+.travel-card-2 h3,
+.travel-card-3 h3 {
+    margin: 32px;
+}
+
+.travel-card-1 p,
+.travel-card-2 p,
+.travel-card-3 p {
+    margin: 0 32px 32px 32px;
+}
+
+.star {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    color: goldenrod; 
+    font-size: 23px;
 }
