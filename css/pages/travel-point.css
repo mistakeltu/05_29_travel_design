@@ -1,0 +1,108 @@
+.main-travel-point{
+    margin-top: 320px;
+    width: 1110px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+
+}
+
+.travel-point-left {
+    position: relative;
+    width: 665px;
+    height: 700px;
+}
+
+.girl-bg {
+    position: absolute;
+    top: 127px;
+    left: -430px;
+    width: 1050px;
+    height: 550px;
+    background-color: #FACD49;
+    border-radius: 0 500px 500px 0;
+}
+
+.girl-img {
+    position: absolute;
+}
+
+.travel-point-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    width: 445px;
+}
+
+.travel-point-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 445px;
+    height: 279px;
+}
+
+.travel-buttons {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 206.5px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 32px;
+    background-color: #fff;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+}
+
+.travel-buttons1 {
+    position: absolute;
+    top: 519px;
+    left: 0;
+    width: 206.5px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 32px;
+    background-color: #fff;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+}
+
+.travel-buttons2 {
+    position: absolute;
+    top: 519px;
+    left: 240px;
+    width: 206.5px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 32px;
+    background-color: #fff;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+}
+
+.travel-buttons4 {
+    position: absolute;
+    top: 350px;
+    left: 240px;
+    width: 206.5px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 32px;
+    background-color: #fff;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+}
