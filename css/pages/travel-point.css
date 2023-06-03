@@ -13,6 +13,18 @@
     height: 700px;
 }
 
+/* .discount-btn {
+    position: absolute;
+    top: 120px;
+    left: 280px;
+} */
+
+.purple-round {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+
 .girl-bg {
     position: absolute;
     top: 127px;
@@ -105,4 +117,10 @@
     border-radius: 32px;
     background-color: #fff;
     border: solid 1px rgba(128, 128, 128, 0.2);
+}
+
+.round-star {
+    position: absolute;
+    top: 270px;
+    left: 980px;
 }
